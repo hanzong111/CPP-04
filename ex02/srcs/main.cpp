@@ -6,7 +6,7 @@
 /*   By: ojing-ha <ojing-ha@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/23 13:59:07 by schuah            #+#    #+#             */
-/*   Updated: 2023/03/25 14:41:16 by ojing-ha         ###   ########.fr       */
+/*   Updated: 2023/03/25 14:42:32 by ojing-ha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,6 +20,8 @@ int main()
 		std::cout << "\n---------- EX01 Main ----------\n" << std::endl;
 		const Animal* j = new Dog();
 		const Animal* i = new Cat();
+		// code to check if Animal base classs is not instantiable
+		// const	Animal	haha();
 
 		delete j;
 		delete i;
