@@ -6,7 +6,7 @@
 /*   By: ojing-ha <ojing-ha@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/23 13:59:07 by schuah            #+#    #+#             */
-/*   Updated: 2023/03/23 23:17:17 by ojing-ha         ###   ########.fr       */
+/*   Updated: 2023/05/26 16:36:38 by ojing-ha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,6 +35,9 @@ int main()
 		std::cout << "\n---------- EX00 Test ----------\n" << std::endl;
 		const WrongAnimal* w_animal = new WrongAnimal();
 		const WrongAnimal* w_cat = new WrongCat();
+		// WrongCat cat2;
+		
+		// cat2.makeSound();
 		
 		std::cout << w_animal->getType() << std::endl;
 		std::cout << w_cat->getType() << std::endl;

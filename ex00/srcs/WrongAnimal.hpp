@@ -6,7 +6,7 @@
 /*   By: ojing-ha <ojing-ha@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/23 16:50:40 by ojing-ha          #+#    #+#             */
-/*   Updated: 2023/03/23 23:18:35 by ojing-ha         ###   ########.fr       */
+/*   Updated: 2023/05/26 16:31:43 by ojing-ha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ class WrongAnimal
 			virtual	~WrongAnimal();
 			WrongAnimal	&operator=(const WrongAnimal &src);
 
-			virtual void	makeSound() const;
+			void	makeSound() const;
 			std::string		getType() const;
 
 	protected	:
